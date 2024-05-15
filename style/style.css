@@ -2,3 +2,77 @@ html,
 body {
   overflow-x: hidden;
 }
+.btn-primary,
+.bg-primary {
+  background-color: #620051 !important;
+  border: 0 !important;
+}
+.logo {
+  font-weight: 600;
+  font-size: 25px;
+  background-color: #620051;
+  color: white;
+  border-radius: 15px;
+  padding: 8px 30px;
+}
+.logo:hover {
+  color: white;
+}
+/* hero */
+#hero {
+  padding: 150px 0;
+}
+#hero p {
+  font-size: 20px;
+}
+#hero h1 {
+  font-size: 50px;
+  padding: 20px 30px;
+}
+
+/* services */
+#services {
+  padding: 60px 0;
+  margin-bottom: 50px;
+}
+#services h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#services h3 {
+  font-weight: 600;
+}
+#services p {
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 770px) {
+  #hero {
+    padding: 120px 0;
+  }
+  #hero p {
+    font-size: 17px;
+  }
+  #hero h1 {
+    font-size: 35px;
+  }
+  #services p {
+    font-size: 16px;
+  }
+  footer p {
+
+  font-size: 16px;
+  
+}
+}
